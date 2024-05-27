@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h2, p, h1, a, button, span, div, li, ul, img, input, label, select, option, textarea{
+    font-family: Barlow;
+}
+
+.playerTile {
+    position: relative;
+    width: 350px;
+    height: 208px;
+    border-radius: 7px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.vidTitle {
+    font-size: 30px;
+}
+
+.playerTile:hover {
+    transform: scale(1.03);
+}
+
+.tileOverlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.vidTitle {
+    font-size: 20px;
+}
+
+.sectionTitle {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.bgOverlay {
+    background-color: rgb(36, 46, 57);
+}
+
+.overVidTitle {
+    font-size: 25px;
+}
+
+.overCaroTitle {
+    font-size: 50px;
+    margin: 0;
+}
+
+.modal-action {
+    margin-top: 20px; /* Adjust this value as needed */
+}
+
+.thumbnail {
+    height: 400px; /* Adjust this value as needed */
+    width: auto;
+    object-fit: cover; /* This will crop the image to cover the container without distorting it */
+}

@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand-name {
+    margin: 0;
+    font-size: 20px;
+}
